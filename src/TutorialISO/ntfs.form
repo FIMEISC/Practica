@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" max="32767" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jButton1" alignment="1" min="-2" pref="95" max="-2" attributes="0"/>
+                  <Component id="jButton2" alignment="1" min="-2" pref="95" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="256" max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="325" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jButton1" min="-2" pref="50" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="jButton2" min="-2" pref="50" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jScrollPane1" pref="255" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="jButton1">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="C:\Users\bravo\Downloads\if_undo-back-arrow_2931166.png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="jButton2">
+      <Properties>
+        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
+          <Image iconType="2" name="C:\Users\bravo\Downloads\if_common-logout-signout-exit-outline-stroke_763290 (1).png"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="14" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#xbf;Que es NTFS?"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="(New Technology File System). Es un sistema de archivos &#xa;dise&#xf1;ado espec&#xed;ficamente para Windows NT, y utilizado &#xa;por las versiones recientes del sistema operativo Windows.&#xa;Ha reemplazado al sistema FAT utilizado en versiones&#xa; antiguas de Windows y en DOS.&#xa;&#xa;Fue creado para lograr un sistema de archivos eficiente y &#xa;seguro y est&#xe1; basado en el sistema de archivos&#xa;HPFS de IBM/Microsoft usado en el sistema operativo OS/2. &#xa;Tambi&#xe9;n tiene caracter&#xed;sticas del filesystem HFS dise&#xf1;ado por Apple.&#xa;&#xa;&#xa;NTFS permite definir el tama&#xf1;o del cl&#xfa;ster de forma&#xa;independiente al tama&#xf1;o de la partici&#xf3;n. El tama&#xf1;o m&#xed;nimo&#xa;del bloque es de 512 bytes. Este sistema tambi&#xe9;n admite &#xa;compresi&#xf3;n nativa de archivos y encriptaci&#xf3;n.&#xa;Es un sistema ideal para particiones de gran tama&#xf1;o, &#xa;pudiendo manejar discos de hasta 2 terabytes.&#xa;Windows NT, 2000, 2003, XP y Vista soportan el sistema NTFS.&#xa;&#xa;SUS DESVENTAJAS SON:&#xa;*Utiliza gran cantidad de espacio en disco para s&#xed; mismo.&#xa;*No es compatible con sistemas operativos como DOS,&#xa;  Windows 95, 98 ni ME.&#xa;*No puede ser usado en disquetes.&#xa;*La conversi&#xf3;n a NTFS es unidireccional, por lo tanto, &#xa; no se puede volver a convertir en FAT al actualizar la unidad.&#xa;&#xa;SUS VENTAJAS Y MEJORAS CON RESPECTO AL FAT SON:&#xa;&#xa;*Compatibilidad mejorada con los metadatos.&#xa;*Uso de estructura de datos avanzadas (&#xe1;rboles-B), &#xa;  optimizando el rendimiento, estabilidad y aprovechando&#xa;  espacio en disco, pues acelera el acceso a los ficheros y &#xa;  reduce la fragmentaci&#xf3;n.&#xa;*Mejora de la seguridad&#xa;*Listas de control de acceso&#xa;*El registro de transacciones (journaling), que garantiza la &#xa; integridad del sistema de ficheros.&#xa;&#xa;Existen tres versiones de NTFS: v1.2 en NT 3.51 y NT 4, &#xa;v3.0 en Windows 2000 y v3.1 en Windows XP y Windows 2003 Server.&#xa;Los detalles de la implementaci&#xf3;n son secretos de Microsoft."/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
